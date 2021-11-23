@@ -1,31 +1,171 @@
-/* PAGINA HOME */
-#logo{
-    width: 75px;;
-    height:25 ;
+body{
+    background-color: #EDE0D4 ;
+    font-family: Abyssinica SIL;
 }
 
-#banner{
-margin-left: 25%;
-margin-right: 25%;
-width: 650px;;
+/* PAGINA HOME */
+.navbar{
+display: flex;
+background-color:#6D6875 ;
+}
+
+.navbar__logo{
+width: 75px;;
+height:25;
+margin-left: 20%;
+border-radius: 50%;
+}
+
+.navbar__boton{
+display: flex;
+width: 50%;
+justify-content:space-evenly;
+}
+
+.navbar__boton--home{
+border: solid #EDE0D4;
+padding: 10px;
+border-radius: 15px;
+color: black;
+background-color:#EDE0D4; ;
+}
+
+.banner{
+width: 100%;
 padding:0%, auto;}
 
+
 /* PAGINA PILATES */
-.textoPilates1{
-    margin-top: 20%;
+.pilates__grupo1 , .pilates__grupo2{
+    margin-top: 10%;
+    display: flex;
+}
+
+.pilates__grupo1--imagen1{
+width: 100%;
+border-radius: 25px;
+}
+
+.pilates__grupo1--texto1{
+left: 749px;
+top: 226px;
+background: #E5989B;
+border-radius: 0px 25px 25px 0px;
+padding: 10%;
+margin-top:20%;
+}
+
+.pilates__grupo2--texto2{
+left: 125px;
+top: 636px;
+background: #E5989B;
+border-radius: 25px 0px 0px 25px;
+padding: 10%;
+margin-top:20%;
+}
+
+.pilates__grupo2--imagen2{
+width: 100%;
+border-radius: 25px;
 }
 
 /* PAGINA BENEFICIOS */
-.pilatesFoto2{
-width: 412px;
-height: 412px;
+
+.beneficios__grupo1 , .beneficios__grupo2{
+margin-top: 10%;
+display: flex;
+}
+
+.leyendaBeneficios{
+margin-left: 57%;
+width: 685px;
+height: 142px;
+left: 662px;
+top: 137px;
+font-style: normal;
+font-weight: normal;
+font-size: 100px;
+line-height: 125px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: #000000;
+}
+
+
+.beneficios__grupo1--foto, .beneficios__grupo2--foto{
+width: 512px;
+height: 512px;
 left: 110px;
 top: 185px;
 border-radius: 50%;
 }
 
-/* PAGINA CONTACTO */
-.formulario{
-    padding-left: 25%;
-    padding-right: 25%
+.beneficios__grupo1--texto{
+width: 100%;
+left: 609px;
+top: 317px;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+margin-top: 25%;
 }
+
+.beneficios__grupo2--texto{
+width: 100%;
+left: 116px;
+top: 740px;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: flex-end;
+text-align: center;
+margin-top: 25%;
+}
+
+
+/* PAGINA CONTACTO */
+.contacto{
+    display: flex;
+    justify-content: center;
+    margin-top:5% ;
+}
+
+.contacto__formulario--leyenda{
+display: flex;
+justify-content: center;
+color:#E5989B ;
+}
+
+.contacto__formulario--email{
+    display: flex;
+    justify-content: center;
+    color:#E5989B ;
+}
+
+.contacto__formulario--datos{
+border:solid 3px #6D6875;
+margin-top: 2%;
+background-color: #E5989B;
+border-radius: 5px;
+}
+
+.contacto__mapa--leyenda{
+display: flex;
+justify-content: center;
+color:#E5989B ;
+}
+
+.contacto__mapa{
+display: flex;
+justify-content: center;
+border-radius: 20%;
+margin-bottom: 10%;
+}
+

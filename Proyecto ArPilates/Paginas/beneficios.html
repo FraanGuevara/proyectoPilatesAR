@@ -12,50 +12,35 @@
 
 </head>
 <body>
-    <header>
+    <header>        
         <!-- NAVBAR -->
-        <div>
-            <nav>
-                <!-- Logo del navbar -->
-                <nav class="navbar navbar-light bg-light">
-                    <div class="container">
-                    <a class="navbar-brand" href="#">
-                        <img src="../Sources/LOGO.jpeg" alt="" id="logo">
-                    </a>
-                <!-- Botones del navbar -->
-                    <ul class="nav justify-content-end">
-                        <li class="nav-item">
-                        <a class="nav-link " href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="./pilates.html">Pilates</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="./beneficios.html">Beneficios</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto<a>
-                        </li>
+        <nav>
+            <div class="navbar">
+                <div><!-- Logo del navbar -->
+                    <img src="../Sources/LOGO.jpeg" alt="" class="navbar__logo" >
+                </div><!-- Botones del navbar -->
+                    <ul class="navbar__boton" >
+                        <lo><a href="../index.html" class="navbar__boton--home">Home</a></lo>
+                        <lo><a href="./pilates.html" class="navbar__boton--home">Pilates</a> </lo>
+                        <lo><a href="./beneficios.html" class="navbar__boton--home">Beneficios</a> </lo>
+                        <lo><a href="./contacto.html" class="navbar__boton--home">Contacto</a> </lo>
                     </ul>
-                    </div>
-                </nav>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
 
 <main><!-- Container -->
-    <div class="container">
-        <h1 style="margin-left: 80%;">BENEFICIOS</h1><!-- LEYENDA BENEFICIO MODIFICADO STYLE -->
-
-        <div class="row">
+    <div class="container beneficios">
+        <h1 class="leyendaBeneficios">BENEFICIOS</h1><!-- LEYENDA BENEFICIO MODIFICADO STYLE -->
+        <div class="row beneficios__grupo1">
             <!-- IMAGEN CON TEXTO1 -->
-            <div class="col-sm-6 col-md-6"><img src="../Sources/pilatesFoto2.jpg" class="pilatesFoto2" alt=""></div>
-            <div class="col-sm-6 col-md-6"><p class="textoPilates1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus autem illo, blanditiis illum voluptatum esse quis provident? Assumenda officia ex, perferendis aliquid consequuntur ullam laboriosam voluptatum? Tempora, voluptate sapiente?</p></div>
+            <div class="col-sm-6 col-md-6"><img src="../Sources/pilatesFoto2.jpg" class="beneficios__grupo1--foto" alt=""></div>
+            <div class="col-sm-6 col-md-6"><p class="beneficios__grupo1--texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus autem illo, blanditiis illum voluptatum esse quis provident? Assumenda officia ex, perferendis aliquid consequuntur ullam laboriosam voluptatum? Tempora, voluptate sapiente?</p></div>
         </div>
         <!-- IMAGEN CON TEXTO2 -->
-        <div class="row">
-            <div class="col-sm-6 col-md-6"><p class="textoPilates1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus autem illo, blanditiis illum voluptatum esse quis provident? Assumenda officia ex, perferendis aliquid consequuntur ullam laboriosam voluptatum? Tempora, voluptate sapiente?</p></div>
-            <div class="col-sm-6 col-md-6"><img src="../Sources/pilatesFoto2.jpg" class="pilatesFoto2" alt=""></div>
+        <div class="row beneficios__grupo2">
+            <div class="col-sm-6 col-md-6"><p class="beneficios__grupo2--texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus autem illo, blanditiis illum voluptatum esse quis provident? Assumenda officia ex, perferendis aliquid consequuntur ullam laboriosam voluptatum? Tempora, voluptate sapiente?</p></div>
+            <div class="col-sm-6 col-md-6"><img src="../Sources/pilatesFoto2.jpg" class= "beneficios__grupo2--foto" alt=""></div>
         </div>
     </div>
 
