@@ -12,6 +12,7 @@ li, a{
 .navbar{
 display: flex;
 background-color:#6D6875 ;
+width: 100%;;
 }
 
 .navbar__logo{
@@ -28,11 +29,14 @@ justify-content:space-evenly;
 }
 
 .navbar__boton--home{
+display: flex;
 border: solid #EDE0D4;
 padding: 10px;
 border-radius: 15px;
 color: black;
-background-color:#EDE0D4; ;
+background-color:#EDE0D4;
+justify-content: center;
+margin: 2%;
 }
 
 .banner{
@@ -82,15 +86,14 @@ display: flex;
 }
 
 .leyendaBeneficios{
-margin-left: 57%;
-width: 685px;
-height: 142px;
-left: 662px;
+margin-left: 20%;
+width: 100%;
+height: 100%;
+left: 50%;
 top: 137px;
-font-style: normal;
-font-weight: normal;
-font-size: 100px;
-line-height: 125px;
+font-style:normal;
+font-weight:normal;
+font-size: 50px;
 display: flex;
 align-items: flex-end;
 text-align: center;
@@ -99,11 +102,11 @@ color: #000000;
 
 
 .beneficios__grupo1--foto, .beneficios__grupo2--foto{
-width: 512px;
-height: 512px;
+width: 100%;
+height: 100%;
 left: 110px;
 top: 185px;
-border-radius: 50%;
+border-radius: 25%;
 }
 
 .beneficios__grupo1--texto{

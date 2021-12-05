@@ -14,30 +14,46 @@
 <body>
     <header>        
         <!-- NAVBAR -->
-        <nav>
-            <div class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
                 <!-- Logo del navbar -->
-                    <img src="../Sources/LOGO.jpeg" alt="" class="navbar__logo" >
+                <img src="../Sources/LOGO.jpeg" alt="" class="navbar__logo" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <!-- Botones del navbar -->
-                    <ul class="navbar__boton" >
-                        <li><a href="../index.html" class="navbar__boton--home">Home</a></li>
-                        <li><a href="./pilates.html" class="navbar__boton--home">Pilates</a> </li>
-                        <li><a href="./beneficios.html" class="navbar__boton--home">Beneficios</a> </li>
-                        <li><a href="./contacto.html" class="navbar__boton--home">Contacto</a> </li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar__boton">
+                        <li class="nav-item">
+                        <a class="nav-link active navbar__boton--home" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active navbar__boton--home" href="./pilates.html">Pilates</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active navbar__boton--home" href="./beneficios.html">Beneficios</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active navbar__boton--home" href="./contacto.html">Contacto</a>
+                        </li>
                     </ul>
+                </div>
             </div>
         </nav>
     </header>
 
 <main>
-    <div class="container pilates">
+    <div class="Container">
+        <!-- GRUPO FOTO1/TEXTO1 -->
         <div class="row pilates__grupo1">
             <div class="col-sm-6 col-md-6">
-                <img  src="../Sources/pilatesFoto1.jpg" alt="" class="pilates__grupo1--imagen1"></div>
+                <img  src="../Sources/pilatesFoto1.jpg" alt="" class="pilates__grupo1--imagen1">
+            </div>
             <div class="col-sm-6 col-md-6">
-                <p class="pilates__grupo1--texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus autem illo, blanditiis illum voluptatum esse quis provident? Assumenda officia ex, perferendis aliquid consequuntur ullam laboriosam voluptatum? Tempora, voluptate sapiente?</p></div>
+                <p class="pilates__grupo1--texto1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus autem illo, blanditiis illum voluptatum esse quis provident? Assumenda officia ex, perferendis aliquid consequuntur ullam laboriosam voluptatum? Tempora, voluptate sapiente?</p>
+            </div>
         </div>
-
+        <!-- GRUPO FOTO2/TEXTO2 -->
         <div class="row pilates__grupo2">
             <div class="col-sm-6 col-md-6">
                 <p class="pilates__grupo2--texto2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus autem illo, blanditiis illum voluptatum esse quis provident? Assumenda officia ex, perferendis aliquid consequuntur ullam laboriosam voluptatum? Tempora, voluptate sapiente?</p></div>
@@ -61,5 +77,6 @@
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
