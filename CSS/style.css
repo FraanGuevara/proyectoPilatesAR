@@ -86,11 +86,10 @@ display: flex;
 }
 
 .leyendaBeneficios{
-margin-left: 20%;
+margin-left: 10%;
 width: 100%;
-height: 100%;
 left: 50%;
-top: 137px;
+top: 20%;
 font-style:normal;
 font-weight:normal;
 font-size: 50px;
@@ -103,7 +102,6 @@ color: #000000;
 
 .beneficios__grupo1--foto, .beneficios__grupo2--foto{
 width: 100%;
-height: 100%;
 left: 110px;
 top: 185px;
 border-radius: 25%;
