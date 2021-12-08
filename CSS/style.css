@@ -12,11 +12,11 @@ li, a{
 .navbar{
 display: flex;
 background-color:#6D6875 ;
-width: 100%;;
+width: 100%;
 }
 
 .navbar__logo{
-width: 75px;;
+width: 75px;
 height:25;
 margin-left: 5%;
 border-radius: 50%;
@@ -31,7 +31,7 @@ justify-content:space-evenly;
 .navbar__boton--home{
 display: flex;
 border: solid #EDE0D4;
-padding: 10px;
+padding: 3px;
 border-radius: 15px;
 color: black;
 background-color:#EDE0D4;
@@ -42,6 +42,90 @@ margin: 2%;
 .banner{
 width: 100%;
 padding:0%, auto;}
+
+/* CARROUSEL DE IMAGENES ESTUDIO */
+.local{
+    display: grid;
+}
+
+.local__texto{
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 0.2fr 2.6fr 0.2fr;
+    grid-template-rows: 0.2fr 2.3fr 0.5fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "local__enblanco local__texto local__enblanco1"
+    "local__enblanco local__carrousel local__enblanco1"
+    "local__enblanco2 local__enblanco2 local__enblanco2";
+}
+
+.local__texto { grid-area: local__texto; }
+
+.local__carrousel { grid-area: local__carrousel; }
+
+.local__enblanco { grid-area: local__enblanco; }
+
+.local__enblanco1 { grid-area: local__enblanco1; }
+
+.local__enblanco2 { grid-area: local__enblanco2; }
+
+
+
+/* GRID DE IMG ELEMENTOS  */
+.elementos{
+    width: 100%;
+    display: grid;
+    grid-template-areas:
+    "imagen1 imagen1 imagen2 imagen2"
+    "imagen1 imagen1 imagen3 imagen3"
+    "imagen4 imagen4 imagen5 imagen5";
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: white;
+    border: solid 30px white;
+}
+
+.elementos__imagen-1{
+    grid-area: imagen1;
+    border: solid 2px white;
+    /* height: 1250px */;
+    overflow: hidden;
+}
+.elementos__imagen-2{
+    grid-area: imagen2;
+    border: solid 2px white;
+    /* height:300px */;
+    overflow: hidden
+}
+.elementos__imagen-3{
+    grid-area: imagen3;
+    border: solid 2px white;
+    /* height: 300px; */
+    overflow: hidden
+}
+.elementos__imagen-4{
+    grid-area: imagen4;
+    border: solid 2px white;
+    /* height: 300px */;
+}
+.elementos__imagen-5{
+    grid-area: imagen5;
+    border: solid 2px white;
+    /* height: 300px */;
+}
+
+
+
+
 
 
 /* PAGINA PILATES */
