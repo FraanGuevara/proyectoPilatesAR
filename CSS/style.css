@@ -39,6 +39,13 @@ justify-content: center;
 margin: 2%;
 }
 
+.navbar__boton--home:hover{
+    border: solid #EDE0D4;
+    background-color: #6D6875 ;
+    /* text-transform: uppercase; */
+}
+
+
 .banner{
 width: 100%;
 padding:0%, auto;}
@@ -78,6 +85,30 @@ padding:0%, auto;}
 
 .local__enblanco2 { grid-area: local__enblanco2; }
 
+/* DIVISION */
+
+.division__cuadrado{
+    background-color: white;
+    margin-bottom: 15%;
+    height: auto;
+    display: grid;
+    grid-template-areas: "imagen1 imagen2 imagen3";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.division__cuadrado-1, .division__cuadrado-2, .division__cuadrado-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    filter: sepia(80%);
+    color: #6D6875;
+}
+
+.imagenDivisionHome{
+    width: 100%;
+    padding: 0%, auto;
+}
 
 
 /* GRID DE IMG ELEMENTOS  */
@@ -92,39 +123,77 @@ padding:0%, auto;}
     grid-template-rows: 1fr 1fr 1fr;
     background-color: white;
     border: solid 30px white;
+    
+}
+/* Animacion para imagenes de elementos */
+.elementos__imagen-1:hover {
+    filter: sepia(0);
+    transform: scale(1.10);
+    z-index: 300;
 }
 
+.elementos__imagen-2:hover {
+    filter: sepia(0);
+    transform: scale(1.10);
+    z-index: 300;
+}
+.elementos__imagen-3:hover {
+    filter: sepia(0);
+    transform: scale(1.10);
+    z-index: 300;
+}
+.elementos__imagen-4:hover {
+    filter: sepia(0);
+    transform: scale(1.10);
+    z-index: 300;
+}
+.elementos__imagen-5:hover {
+    filter: sepia(0);
+    transform: scale(1.10);
+    z-index: 300;
+}
+
+/* Imagenes de elementos */
 .elementos__imagen-1{
     grid-area: imagen1;
-    border: solid 2px white;
-    /* height: 1250px */;
+    margin: 2px;
     overflow: hidden;
+    filter: sepia(80%);
+    transition: all .6s ease;
+
 }
 .elementos__imagen-2{
     grid-area: imagen2;
-    border: solid 2px white;
-    /* height:300px */;
-    overflow: hidden
+    margin: 2px;
+    overflow: hidden;
+    filter: sepia(80%);
+    transition: all .6s ease;
 }
 .elementos__imagen-3{
     grid-area: imagen3;
-    border: solid 2px white;
-    /* height: 300px; */
-    overflow: hidden
+    margin: 2px;
+    overflow: hidden;
+    filter: sepia(80%);
+    transition: all .6s ease;
 }
 .elementos__imagen-4{
     grid-area: imagen4;
-    border: solid 2px white;
-    /* height: 300px */;
+    margin: 2px;
+    overflow: hidden;
+    filter: sepia(80%);
+    transition: all .6s ease;
 }
 .elementos__imagen-5{
     grid-area: imagen5;
-    border: solid 2px white;
-    /* height: 300px */;
+    margin: 2px;
+    overflow: hidden;
+    filter: sepia(80%);
+    transition: all .6s ease;
 }
-
-
-
+/* Border para imagenes */
+.imagenElementos{
+    border: solid 3px white;
+}
 
 
 
