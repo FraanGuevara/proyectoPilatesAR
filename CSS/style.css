@@ -48,7 +48,7 @@ margin: 2%;
 
 .banner{
 width: 100%;
-padding:0%, auto;}
+padding: 0%, auto;}
 
 /* CARROUSEL DE IMAGENES ESTUDIO */
 .local{
@@ -103,6 +103,7 @@ padding:0%, auto;}
     flex-direction: column;
     filter: sepia(80%);
     color: #6D6875;
+    font-size: 2.5vw;
 }
 
 .imagenDivisionHome{
