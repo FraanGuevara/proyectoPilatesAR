@@ -89,7 +89,7 @@ padding: 0%, auto;}
 
 .division__cuadrado{
     background-color: white;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
     height: auto;
     display: grid;
     grid-template-areas: "imagen1 imagen2 imagen3";
@@ -303,19 +303,6 @@ justify-content: center;
 color:#E5989B ;
 }
 
-.contacto__formulario--email{
-    display: flex;
-    justify-content: center;
-    color:#E5989B ;
-}
-
-.contacto__formulario--datos{
-border:solid 3px #6D6875;
-margin-top: 2%;
-background-color: #E5989B;
-border-radius: 5px;
-}
-
 .contacto__mapa--leyenda{
 display: flex;
 justify-content: center;
@@ -328,6 +315,34 @@ justify-content: center;
 border-radius: 20%;
 margin-bottom: 10%;
 }
+
+.formulario{
+    color:#6D6875;
+}
+
+.formulario__card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EDE0D4;
+}
+
+.formulario__card--name{
+    color:red;
+}
+
+.formulario__boton{
+    background-color: #E5989B;
+    border:solid 2px #EDE0D4;
+}
+
+.formulario__boton:hover{
+    background-color: #6D6875;
+    border:solid 2px #6D6875;
+}
+/* FORMULARIO */
+
 
 
 /* FOOTER */
