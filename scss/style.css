@@ -1,61 +1,4 @@
-body {
-  background-color: #EDE0D4;
-  font-family: Abyssinica SIL;
-}
-
-li, a {
-  list-style: none;
-  text-decoration: none;
-}
-
 /* PAGINA HOME */
-/* Navbar */
-.navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #6D6875;
-  width: 100%;
-}
-
-.navbar__logo {
-  width: 75px;
-  height: 25;
-  margin-left: 5%;
-  border-radius: 50%;
-}
-
-.navbar__boton {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 50%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.navbar__boton--home {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: solid #EDE0D4;
-  padding: 3px;
-  border-radius: 15px;
-  color: black;
-  background-color: #EDE0D4;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 2%;
-}
-
-.navbar__boton--home:hover {
-  border: solid #EDE0D4;
-  background-color: #6D6875;
-  /* text-transform: uppercase; */
-}
-
 /* Banner */
 .banner {
   width: 100%;
@@ -480,6 +423,53 @@ li, a {
   border: solid 2px #6D6875;
 }
 
+/* Navbar */
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6D6875;
+  width: 100%;
+}
+
+.navbar__logo {
+  width: 75px;
+  height: 25;
+  margin-left: 5%;
+  border-radius: 50%;
+}
+
+.navbar__boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.navbar__boton--home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid #EDE0D4;
+  padding: 3px;
+  border-radius: 15px;
+  color: black;
+  background-color: #EDE0D4;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2%;
+}
+
+.navbar__boton--home:hover {
+  border: solid #EDE0D4;
+  background-color: #6D6875;
+  /* text-transform: uppercase; */
+}
+
 /* FOOTER */
 .footer {
   display: -webkit-box;
@@ -506,5 +496,15 @@ li, a {
 
 .iconoFooter {
   width: 35px;
+}
+
+body {
+  background-color: #EDE0D4;
+  font-family: Abyssinica SIL;
+}
+
+li, a {
+  list-style: none;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

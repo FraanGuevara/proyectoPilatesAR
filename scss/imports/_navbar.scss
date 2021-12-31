@@ -1,0 +1,33 @@
+/* Navbar */
+.navbar{
+    display: flex;
+    background-color:#6D6875 ;
+    width: 100%;
+        &__logo{
+            width: 75px;
+            height:25;
+            margin-left: 5%;
+            border-radius: 50%;
+        }
+        &__boton{
+            display: flex;
+            width: 50%;
+            justify-content:space-evenly;
+            &--home{
+                display: flex;
+                border: solid #EDE0D4;
+                padding: 3px;
+                border-radius: 15px;
+                color: black;
+                background-color:#EDE0D4;
+                justify-content: center;
+                margin: 2%;
+                &:hover{
+                    border: solid #EDE0D4;
+                    background-color: #6D6875 ;
+                    /* text-transform: uppercase; */
+                }
+                }
+            }
+    
+    }

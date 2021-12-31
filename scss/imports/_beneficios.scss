@@ -1,0 +1,55 @@
+/* PAGINA BENEFICIOS */
+
+.leyendaBeneficios{
+    margin-left: 10%;
+    width: 100%;
+    left: 50%;
+    top: 20%;
+    font-style:normal;
+    font-weight:normal;
+    font-size: 50px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #000000;
+    }
+    
+    .beneficios__grupo1 , .beneficios__grupo2{
+        margin-top: 10%;
+        display: flex;
+        }
+    
+    .beneficios__grupo1--foto, .beneficios__grupo2--foto{
+    width: 100%;
+    left: 110px;
+    top: 185px;
+    border-radius: 25%;
+    }
+    
+    .beneficios__grupo1--texto{
+    width: 100%;
+    left: 609px;
+    top: 317px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 25%;
+    }
+    
+    .beneficios__grupo2--texto{
+    width: 100%;
+    left: 116px;
+    top: 740px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 25%;
+    }
