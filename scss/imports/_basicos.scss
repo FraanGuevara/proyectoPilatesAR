@@ -1,9 +1,10 @@
+@import 'maps';
+
 body{
-    background-color: $claro ;
-    font-family: Abyssinica SIL;
+    background-color: #EDE0D4 ;
+    font-family: $fina;
+    font-size: $mediana;
 }
-
-
 
 li, a{
     list-style: none;

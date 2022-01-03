@@ -1,0 +1,24 @@
+/* MAPAS, SE IMPORTO EN: -BASICOS */
+
+/* MAPA para tamaño de letra */
+$fonts-size: (
+    chica: 15px,
+    mediana: 20px,
+    grande: 25px,
+);
+
+$chica : map-get($fonts-size, chica);
+$mediana : map-get($fonts-size, mediana);
+$grande: map-get($fonts-size , grande );
+
+
+/* MAPA para tipo de letra */
+$fonts-family: (
+    cursiva: 'cursive',
+    italica : 'EB Garamond',
+    fina: 'Raleway'
+);
+
+$cursiva: map-get($fonts-family, cursiva);
+$italica: map-get($fonts-family, italica);
+$fina: map-get($fonts-family, fina);

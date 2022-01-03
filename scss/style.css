@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* PAGINA HOME */
 /* Banner */
 .banner {
@@ -17,13 +18,24 @@
   padding-top: 100px;
 }
 
+.local__carrousel {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.local__carrousel--text {
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+}
+
 .container2 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 0.2fr 2.6fr 0.2fr;
       grid-template-columns: 0.2fr 2.6fr 0.2fr;
-  -ms-grid-rows: 0.2fr 2.3fr 0.5fr;
-      grid-template-rows: 0.2fr 2.3fr 0.5fr;
+  -ms-grid-rows: 0.2fr 2.3fr 0.3fr;
+      grid-template-rows: 0.2fr 2.3fr 0.3fr;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   gap: 0px 0px;
@@ -102,6 +114,7 @@
   font-size: 2.5vw;
 }
 
+/* Mixin para imagenes de elementos */
 /* GRID DE IMG ELEMENTOS  */
 .elementos {
   width: 100%;
@@ -114,6 +127,7 @@
       grid-template-rows: 1fr 1fr 1fr;
   background-color: white;
   border: solid 30px white;
+  margin-bottom: 10%;
   /* Imagenes de elementos */
 }
 
@@ -152,6 +166,15 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
+  /* Animacion */
+}
+
+.elementos__imagen-2:hover {
+  -webkit-filter: sepia(0);
+          filter: sepia(0);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 300;
 }
 
 .elementos__imagen-2:hover {
@@ -174,6 +197,15 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
+  /* Animacion */
+}
+
+.elementos__imagen-3:hover {
+  -webkit-filter: sepia(0);
+          filter: sepia(0);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 300;
 }
 
 .elementos__imagen-3:hover {
@@ -196,6 +228,15 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
+  /* Animacion */
+}
+
+.elementos__imagen-4:hover {
+  -webkit-filter: sepia(0);
+          filter: sepia(0);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 300;
 }
 
 .elementos__imagen-4:hover {
@@ -218,6 +259,15 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
+  /* Animacion */
+}
+
+.elementos__imagen-5:hover {
+  -webkit-filter: sepia(0);
+          filter: sepia(0);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 300;
 }
 
 .elementos__imagen-5:hover {
@@ -234,7 +284,7 @@
 }
 
 /* PAGINA PILATES */
-.pilates__grupo1 {
+.pilates__grupo1, .pilates__grupo2 {
   margin-top: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -255,13 +305,6 @@
   margin-top: 20%;
 }
 
-.pilates__grupo2 {
-  margin-top: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .pilates__grupo2--texto2 {
   left: 125px;
   top: 636px;
@@ -274,6 +317,7 @@
 .pilates__grupo2--imagen2 {
   width: 100%;
   border-radius: 25px;
+  margin-bottom: 10%;
 }
 
 /* PAGINA BENEFICIOS */
@@ -309,10 +353,11 @@
   border-radius: 25%;
 }
 
-.beneficios__grupo1--texto {
-  width: 100%;
-  left: 609px;
-  top: 317px;
+.beneficios__grupo2--foto {
+  margin-bottom: 20%;
+}
+
+.beneficios__grupo1--texto, .beneficios__grupo2--texto {
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -324,25 +369,12 @@
       -ms-flex-align: end;
           align-items: flex-end;
   text-align: center;
-  margin-top: 25%;
+  margin-top: 10%;
+  margin-bottom: 20%;
 }
 
 .beneficios__grupo2--texto {
-  width: 100%;
-  left: 116px;
-  top: 740px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  text-align: center;
-  margin-top: 25%;
+  margin-top: 0%;
 }
 
 /* PAGINA CONTACTO */
@@ -363,7 +395,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #E5989B;
+  /* color:#E5989B; */
 }
 
 .contacto__mapa {
@@ -384,7 +416,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #E5989B;
+  /* color:#E5989B ; */
 }
 
 /* Formulario */
@@ -498,9 +530,13 @@
   width: 35px;
 }
 
+/* MAPAS, SE IMPORTO EN: -BASICOS */
+/* MAPA para tamaño de letra */
+/* MAPA para tipo de letra */
 body {
   background-color: #EDE0D4;
-  font-family: Abyssinica SIL;
+  font-family: "Raleway";
+  font-size: 20px;
 }
 
 li, a {

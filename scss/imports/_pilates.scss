@@ -17,8 +17,7 @@
 }
 
 .pilates__grupo2{
-    margin-top: 10%;
-    display: flex;
+    @extend .pilates__grupo1;
     &--texto2{
         left: 125px;
         top: 636px;
@@ -30,5 +29,6 @@
     &--imagen2{
         width: 100%;
         border-radius: 25px;
+        margin-bottom: 10%;
         }
 }
