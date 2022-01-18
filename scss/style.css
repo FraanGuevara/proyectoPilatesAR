@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* PAGINA HOME */
+h2 {
+  text-align: center;
+}
+
 /* Banner */
 .banner {
   width: 100%;
@@ -26,54 +30,35 @@
 .local__carrousel--text {
   color: black;
   background-color: white;
+  opacity: 0.75;
   border-radius: 25px;
 }
 
 .container2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 0.2fr 2.6fr 0.2fr;
-      grid-template-columns: 0.2fr 2.6fr 0.2fr;
-  -ms-grid-rows: 0.2fr 2.3fr 0.3fr;
-      grid-template-rows: 0.2fr 2.3fr 0.3fr;
+  -ms-grid-columns: 3fr;
+      grid-template-columns: 3fr;
+  -ms-grid-rows: 0.5fr 2.3fr;
+      grid-template-rows: 0.5fr 2.3fr;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-      grid-template-areas: "local__enblanco local__texto local__enblanco1" "local__enblanco local__carrousel local__enblanco1" "local__enblanco2 local__enblanco2 local__enblanco2";
+      grid-template-areas: "local__texto" "local__carrousel";
+  margin-bottom: 20%;
 }
 
 .local__texto {
   -ms-grid-row: 1;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: local__texto;
 }
 
 .local__carrousel {
   -ms-grid-row: 2;
-  -ms-grid-column: 2;
+  -ms-grid-column: 1;
   grid-area: local__carrousel;
-}
-
-.local__enblanco {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  grid-area: local__enblanco;
-}
-
-.local__enblanco1 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 3;
-  grid-area: local__enblanco1;
-}
-
-.local__enblanco2 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: local__enblanco2;
 }
 
 /* DIVISION */
@@ -149,8 +134,8 @@
 .elementos__imagen-1:hover {
   -webkit-filter: sepia(0);
           filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   z-index: 300;
 }
 
@@ -166,22 +151,13 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
-  /* Animacion */
 }
 
 .elementos__imagen-2:hover {
   -webkit-filter: sepia(0);
           filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 300;
-}
-
-.elementos__imagen-2:hover {
-  -webkit-filter: sepia(0);
-          filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   z-index: 300;
 }
 
@@ -197,22 +173,13 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
-  /* Animacion */
 }
 
 .elementos__imagen-3:hover {
   -webkit-filter: sepia(0);
           filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 300;
-}
-
-.elementos__imagen-3:hover {
-  -webkit-filter: sepia(0);
-          filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   z-index: 300;
 }
 
@@ -228,22 +195,13 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
-  /* Animacion */
 }
 
 .elementos__imagen-4:hover {
   -webkit-filter: sepia(0);
           filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 300;
-}
-
-.elementos__imagen-4:hover {
-  -webkit-filter: sepia(0);
-          filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   z-index: 300;
 }
 
@@ -259,22 +217,13 @@
   -webkit-transition: all .6s ease;
   transition: all .6s ease;
   /* Animacion */
-  /* Animacion */
 }
 
 .elementos__imagen-5:hover {
   -webkit-filter: sepia(0);
           filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 300;
-}
-
-.elementos__imagen-5:hover {
-  -webkit-filter: sepia(0);
-          filter: sepia(0);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
   z-index: 300;
 }
 
@@ -289,6 +238,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .pilates__grupo1--imagen1 {
@@ -297,21 +249,19 @@
 }
 
 .pilates__grupo1--texto1 {
-  left: 749px;
-  top: 226px;
   background: #E5989B;
   border-radius: 0px 25px 25px 0px;
   padding: 10%;
   margin-top: 20%;
+  text-align: justify;
 }
 
 .pilates__grupo2--texto2 {
-  left: 125px;
-  top: 636px;
   background: #E5989B;
   border-radius: 25px 0px 0px 25px;
   padding: 10%;
   margin-top: 20%;
+  text-align: justify;
 }
 
 .pilates__grupo2--imagen2 {
@@ -321,60 +271,44 @@
 }
 
 /* PAGINA BENEFICIOS */
-.leyendaBeneficios {
-  margin-left: 10%;
-  width: 100%;
-  left: 50%;
-  top: 20%;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  text-align: center;
-  color: #000000;
-}
-
-.beneficios__grupo1, .beneficios__grupo2 {
+.beneficios__grupo1 {
   margin-top: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.beneficios__grupo2 {
+  margin-top: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .beneficios__grupo1--foto, .beneficios__grupo2--foto {
   width: 100%;
-  left: 110px;
-  top: 185px;
   border-radius: 25%;
 }
 
 .beneficios__grupo2--foto {
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 
 .beneficios__grupo1--texto, .beneficios__grupo2--texto {
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 37px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  text-align: center;
   margin-top: 10%;
   margin-bottom: 20%;
-}
-
-.beneficios__grupo2--texto {
-  margin-top: 0%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
 }
 
 /* PAGINA CONTACTO */
@@ -410,13 +344,13 @@
 }
 
 .contacto__mapa--leyenda {
+  margin-top: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  /* color:#E5989B ; */
 }
 
 /* Formulario */
@@ -443,6 +377,10 @@
 
 .formulario__card--name {
   color: red;
+}
+
+.formulario__card--opciones {
+  margin-top: 2%;
 }
 
 .formulario__boton {

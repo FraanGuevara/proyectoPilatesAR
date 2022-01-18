@@ -2,29 +2,28 @@
 .pilates__grupo1{
     margin-top: 10%;
     display: flex;
+    align-items: center;
     &--imagen1{
         width: 100%;
         border-radius: 25px;
         }
     &--texto1{
-        left: 749px;
-        top: 226px;
         background: #E5989B;
         border-radius: 0px 25px 25px 0px;
         padding: 10%;
         margin-top:20%;
+        text-align: justify
         }
 }
 
 .pilates__grupo2{
     @extend .pilates__grupo1;
     &--texto2{
-        left: 125px;
-        top: 636px;
         background: #E5989B;
         border-radius: 25px 0px 0px 25px;
         padding: 10%;
         margin-top:20%;
+        text-align: justify
         }
     &--imagen2{
         width: 100%;

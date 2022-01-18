@@ -1,35 +1,38 @@
 /* PAGINA BENEFICIOS */
     
-    .beneficios__grupo1 , .beneficios__grupo2{
+    .beneficios__grupo1{
         margin-top: 10%;
         display: flex;
-        }
+        align-items: center;
+    }
+
+    .beneficios__grupo2{
+        margin-top: 10%;
+        display: flex;
+        align-items: center;
+    }
+
+
     
     .beneficios__grupo1--foto{
     width: 100%;
-    left: 110px;
-    top: 185px;
     border-radius: 25%;
     }
 
     .beneficios__grupo2--foto{
         @extend .beneficios__grupo1--foto;
-        margin-bottom: 20%;
+        margin-bottom: 10%;
     }
     
     .beneficios__grupo1--texto{
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 37px;
-    display: flex;
-    align-items: flex-end;
-    text-align: center;
     margin-top: 10%;
     margin-bottom: 20%;
+    align-items: center;
+    text-align: justify;
     }
     
     .beneficios__grupo2--texto{
         @extend .beneficios__grupo1--texto;
-        margin-top: 0%;
     }
